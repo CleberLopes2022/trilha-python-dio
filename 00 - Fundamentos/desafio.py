@@ -1,9 +1,17 @@
-menu = """
+menu = """          
+                                *
+                            *   *    *
+                                *
+================= Bem vindo ao sistema bancario ===================
+
+O que voce deseja fazer ?
 
 [d] Depositar
 [s] Sacar
 [e] Extrato
 [q] Sair
+
+===============================================================
 
 => """
 
