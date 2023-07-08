@@ -2,7 +2,7 @@ menu = """
                                 *
                             *   *    *
                                 *
-================= Bem vindo ao sistema bancario ===================
+================= Bem vindo ao sistema bancario ====================
 
 O que voce deseja fazer ?
 
@@ -11,7 +11,7 @@ O que voce deseja fazer ?
 [e] Extrato
 [q] Sair
 
-===============================================================
+====================================================================
 
 => """
 
@@ -45,13 +45,13 @@ while True:
         excedeu_saques = numero_saques >= LIMITE_SAQUES
 
         if excedeu_saldo:
-            print("Operação falhou! Você não tem saldo suficiente.")
+            print("Operação falhou! Você não tem saldo suficiente para essa transação.")
 
         elif excedeu_limite:
-            print("Operação falhou! O valor do saque excede o limite.")
+            print("Operação falhou! O valor do saque excede o limite permitido.")
 
         elif excedeu_saques:
-            print("Operação falhou! Número máximo de saques excedido.")
+            print("Operação falhou! Número máximo de saques diário excedido.")
 
         elif valor > 0:
             saldo -= valor
