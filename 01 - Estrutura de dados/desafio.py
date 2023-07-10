@@ -11,6 +11,7 @@ def menu():
     [lc]\tListar contas
     [nu]\tNovo usuário
     [q]\tSair
+    ======================================
     => """
     return input(textwrap.dedent(menu))
 
