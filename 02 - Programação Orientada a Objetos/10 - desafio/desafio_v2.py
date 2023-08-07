@@ -177,6 +177,9 @@ class Deposito(Transacao):
 
 def menu():
     menu = """\n
+    Seja bem-vindo ao banco Digital Dio !!!
+
+    O que você deseja fazer hoje?
     ================ MENU ================
     [d]\tDepositar
     [s]\tSacar
